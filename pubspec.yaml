@@ -6,6 +6,10 @@ version: 0.0.1
 environment:
   sdk: '>=2.12.0 <3.0.0'
 
+executable:
+  run: bin/run.dart
+  init: bin/init.dart
+
 # dependencies:
 #   path: ^1.8.0
 
